@@ -36,6 +36,7 @@ App = {
             App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
         }
         web3 = new Web3(App.web3Provider);
+        web3.eth.defaultAccount=web3.eth.accounts[0]
         return App.initContract();
     },
 
@@ -212,7 +213,10 @@ App = {
         var email = $('#email').val();
         var password = $('#password').val();
         var app = await App.contracts.Election.deployed();
-        await app.addUser(firstName, lastName, idNumber, email, password);
+        console.log("creating user")
+        let user = await app.addUser(firstName, lastName, idNumber, email, password);
+        console.log("user created succesfully")
+        console.log(user)
         $("#content").hide();
         $("#loader").show();
         document.querySelector('.vot').style.display = 'block';

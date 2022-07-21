@@ -1,5 +1,5 @@
 {
-  "name": "pet-shop",
+  "name": "blockchain-voting-system",
   "version": "1.0.0",
   "description": "",
   "main": "truffle.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "lite-server",
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
