@@ -1,3 +1,4 @@
+## ABOUT
 A blockchain-based voting system that preserves voter privacy and increases accessibility, while keeping the voting system transparent, secure, and cost-effective. The system implements a voting framework that utilizes ethereum’s blockchain and smart contracts to achieve voter administration and auditable voting records. The implementation was deployed on ethereum’s test network to demonstrate usability, scalability, and efficiency.
 
 Pre requisites:
@@ -5,7 +6,7 @@ Pre requisites:
 2. Ganache
 3. Metamask extension in the browser, preferably chrome.
 
-### SET UP INSTRUCTIONS
+## SET UP INSTRUCTIONS
 
 Open ganache and select quick start ethereum.
 

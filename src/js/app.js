@@ -213,10 +213,7 @@ App = {
         var email = $('#email').val();
         var password = $('#password').val();
         var app = await App.contracts.Election.deployed();
-        console.log("creating user")
-        let user = await app.addUser(firstName, lastName, idNumber, email, password);
-        console.log("user created succesfully")
-        console.log(user)
+        await app.addUser(firstName, lastName, idNumber, email, password);
         $("#content").hide();
         $("#loader").show();
         document.querySelector('.vot').style.display = 'block';
