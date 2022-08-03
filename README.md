@@ -15,7 +15,7 @@ Open your browser and configure metamask. Create a wallet and store your```Secre
 #### Connecting metamask and ganache
 1. In metamask, go to settings > networks > add network. You can also get to this by clicking the metamask extension pinned on your browser > clicking the profile picture > settings > networks > add network
 2. Give your network any name of choice. 
-3. For New RPC URL go to ganache where you'll RPC server url copy it and paste in Metamask. 
+3. For New RPC URL go to ganache where you'll copy the RPC server url and paste in Metamask. 
 4. Chain ID for ganache is 1337. 
 5. You can name currency symbol as "ETH" and save. 
 
@@ -32,8 +32,6 @@ Open your browser and configure metamask. Create a wallet and store your```Secre
 ```cd blockchain-voting-system```
 
 ```npm i```
-
-```npm install -g truffle```
 
 ```truffle compile```
 
