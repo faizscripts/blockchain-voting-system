@@ -1,6 +1,8 @@
 ## ABOUT
 A blockchain-based voting system that preserves voter privacy and increases accessibility, while keeping the voting system transparent, secure, and cost-effective. The system implements a voting framework that utilizes ethereum’s blockchain and smart contracts to achieve voter administration and auditable voting records. The implementation was deployed on ethereum’s test network to demonstrate usability, scalability, and efficiency.
 
+Video guide for project set up and walkthrough : https://www.youtube.com/watch?v=XRHbl3DXabE&t=763s
+
 Pre requisites:
 1. Node JS
 2. Ganache
